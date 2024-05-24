@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family:Arial, Helvetica, sans-serif  
+  }
+  
+  
+  body {
+    margin: 0;
+    padding: 0%;
+    background-color: white;
+  }
+
+  ._landingPage p{
+  background-color: #EDBEF7
+  }
+
+  .container-fluid {
+    background-color: #EDBEF7;
+    padding-right: 3vh;
+    padding-left: 3vh;
+  }
+  
+  .col-lg-6 {
+    display: flex;
+    justify-content: flex-end;   
+  }
+  
+  .fa-map-marker-alt, .fa-phone-alt, .fa-envelope {
+    color: #c54dde;
+  }
+  
+  .container-fluid small {
+    color: #9E07BE;
+  }
+  
+  .fa-facebook-f, .fa-twitter, .fa-instagram, .fa-linkedin-in, .fa-youtube{
+    color: #c54dde;
+  }
+  
+  .fa-facebook-f:hover, .fa-twitter:hover, .fa-instagram:hover, .fa-linkedin-in:hover, .fa-youtube:hover{
+    color: #9E07BE;
+  }
+  
+  .footer{
+  padding-left: 10vh;
+  margin-top: 5vh;
+  }
+  
+  .footer .fa-facebook-f, .footer .fa-twitter, .footer .fa-instagram, .footer .fa-linkedin-in, .footer .fa-youtube {
+    color: white;  
+  }
+  
+  .navbar-brand h2 {
+     color: #c54dde;    
+  }  
+
+  .navbar-brand span{
+    color: black;
+    font-size: 40px;
+  }
+  
+  .navbar-brand:hover {
+    text-decoration: none;
+    color: #DA8EEA;  
+  }
+  
+  .navbar-nav .nav-link {
+    color: black;
+    letter-spacing: 1.5px; 
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #c54dde;
+  }
+  
+  .btn-group .dropdown-toggle{
+   border-radius: 0%;
+   background-color: #c54dde;
+  }
+
+  .btn {
+    border-radius: 0;
+    border-style: none;
+    background-color: #c54dde;  
+  }
+  
+  .btn:hover {
+    border-style: none;
+    text-decoration: none;
+    background-color: #A641BB;
+    color: white;  
+  }
+  
+  .form-control {
+      border-radius: 0;
+  }
+  
+  .input-group-append .btn {
+    border-radius: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #DA8EEA;
+  }
+
+  .dropdown-menu a:hover{
+    background-color: #EDBEF7;
+  }
+
+  .btn-link{
+    text-decoration: none;
+  }
+
+
+  /*carousel start */
+
+  .carousel-inner img {
+    display: block;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+  }
+
+  .carousel img {
+    filter: brightness(60%);
+  }
+  
+  .carousel h6 {
+    font-size: 20px; 
+  }
+  
+  .carousel h3 {
+    font-size: 100px;
+  }
+  
+  .carousel a {
+    margin-bottom: 8vh;
+  }
+
+  .carousel-item{
+    margin-bottom: 12vh;
+  }
+
+  /*carousel end */
+
+  /* Aesthetician start*/
+  .img-fluid, .Team-Aesthetician{
+    transition: all 1s;
+  }
+
+  .img-fluid:hover, .Team-Aesthetician:hover {
+    transform: scale(1.1);
+  }
+  /* Aesthetician end*/
+
+
+  /* Services Table start*/
+  .jumbotron {
+    margin: 0%;
+    padding: 0%;
+  background: linear-gradient(rgba(33, 30, 28, 0.25), rgba(33, 40, 28, 0.25)), url("/litrato/carousel2.jpg");
+  background-size: cover;
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-position: top; 
+  letter-spacing: 3px; 
+  margin-bottom: 5vh;
+  background-color: #e9ecef;
+  }
+  
+  ._serviceName {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+  }
+
+  ._servicePrice {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+  }
+
+
+  .float-end,  .float-start {
+  color: #c54dde;
+  }
+
+  .btn-danger{
+  background-color: red;
+  }
+
+  /* Services Table end*/
+
+  /* ContactUs  start*/
+  .col-lg-6 .hours-text {
+  position: absolute;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  }
+
+  ._contactus{
+  color: #c54dde;
+  }
+
+  /* ContactUs  end*/
+
+  ._consultation{
+  background-color: #EDBEF7;
+  }
+
+  ._consultationBody{
+  background-color: #FBEDFE;
+  }
+
+       
+
+      
+
+
+        
+
+     
+
+         
+         
+
+        
+  
+  
+       
+  
+  
+  
+  
+  
